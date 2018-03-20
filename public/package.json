@@ -1,0 +1,24 @@
+{
+  "name": "paaspop-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/app-layout": "next",
+    "@polymer/iron-icons": "next",
+    "@polymer/paper-dialog": "next",
+    "@polymer/paper-icon-button": "next",
+    "@polymer/paper-input": "next",
+    "@polymer/polymer": "next"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}

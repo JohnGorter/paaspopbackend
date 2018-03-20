@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/canvasjs.min.js"></script> 
+</head>
+<body>
+    <style> 
+    @font-face { font-family: pn; src: url(/fonts/pn.ttf);}
+
+    html{
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+    body{
+        position: absolute;
+        height:100%;
+        width: 100%;
+        overflow:auto;
+        margin:0px;
+        overscroll-behavior-y: none;
+    }
+    * { box-sizing:border-box;} 
+    </style>
+    <script type="module" src="./src/monitor-app.js"></script>
+    <monitor-app>
+        <!-- moet in de DOM beschikbaar zijn, anders werkt de JS niet -->
+        <div id="chart" class="height" style="width:100%;min-height:200px;"></div>
+    </monitor-app>
+</body>
+</html>

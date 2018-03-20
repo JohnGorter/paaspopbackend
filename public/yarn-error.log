@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/usr/local/git/bin:/Users/johngorter/Desktop/flutter/flutter/bin:/Users/johngorter/Desktop/flutter/flutter/bin/cache/dart-sdk/bin:/Users/johngorter/Desktop/emsdk/emsdk:/Users/johngorter/Desktop/emsdk/emsdk/clang/e1.37.22_64bit:/Users/johngorter/Desktop/emsdk/emsdk/node/4.1.1_64bit/bin:/Users/johngorter/Desktop/emsdk/emsdk/emscripten/1.37.22:/Users/JohnGorter/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "paaspop-front-end",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@polymer/app-layout": "next",
+      "@polymer/iron-icons": "next",
+      "@polymer/paper-icon-button": "next",
+      "@polymer/paper-input": "next",
+      "@polymer/polymer": "next",
+    },
+    "devDependencies": {
+      "nodemon": "^1.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/johngorter/Desktop/paaspop-backend/public/package.json: Unexpected token } in JSON at position 465
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/util/fs.js:554:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+      at <anonymous>
